@@ -5,13 +5,13 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Blog Archive - prinum</title>
+  <title>javascript Array.prototype.toString を上書きしてみた - prinum</title>
   <meta name="author" content="Daichi Sato">
 
   
-  <meta name="description" content="Blog Archive 2013 javascript Array.prototype.toString を上書きしてみた
-Mar 08 2013 octopressのテストです
-Mar 08 2013 Recent Posts javascript Array.prototype. &hellip;">
+  <meta name="description" content="[1,2,3].toString() //=&gt; '1,2,3'
+Array.prototype.toString = function(){console.log('huga')}
+[1,2,3].toString() //=&gt; huga ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -20,7 +20,7 @@ Mar 08 2013 Recent Posts javascript Array.prototype. &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://prinum.github.com/blog/archives/">
+  <link rel="canonical" href="http://prinum.github.com/blog/2013/03/08/javascript-prototype/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -65,41 +65,81 @@ Mar 08 2013 Recent Posts javascript Array.prototype. &hellip;">
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Blog Archive</h1>
+    
+      <h1 class="entry-title">Javascript Array.prototype.toString を上書きしてみた</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-03-08T12:13:00+09:00" pubdate data-updated="true">Mar 8<span>th</span>, 2013</time>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives">
 
 
-
-  
-  <h2>2013</h2>
-
-<article>
-  
-<h1><a href="/blog/2013/03/08/javascript-prototype/">javascript Array.prototype.toString を上書きしてみた</a></h1>
-<time datetime="2013-03-08T12:13:00+09:00" pubdate><span class='month'>Mar</span> <span class='day'>08</span> <span class='year'>2013</span></time>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2013/03/08/test-octopress/">octopressのテストです</a></h1>
-<time datetime="2013-03-08T10:43:00+09:00" pubdate><span class='month'>Mar</span> <span class='day'>08</span> <span class='year'>2013</span></time>
-
-
-</article>
-
+<div class="entry-content"><pre><code>[1,2,3].toString() //=&gt; '1,2,3'
+Array.prototype.toString = function(){console.log('huga')}
+[1,2,3].toString() //=&gt; huga
+</code></pre>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Daichi Sato</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-03-08T12:13:00+09:00" pubdate data-updated="true">Mar 8<span>th</span>, 2013</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://prinum.github.com/blog/2013/03/08/javascript-prototype/" data-via="" data-counturl="http://prinum.github.com/blog/2013/03/08/javascript-prototype/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2013/03/08/test-octopress/" title="Previous Post: octopressのテストです">&laquo; octopressのテストです</a>
+      
+      
+    </p>
+  </footer>
 </article>
 
 </div>

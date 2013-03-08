@@ -5,11 +5,13 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>My Octopress Blog</title>
+  <title>prinum</title>
   <meta name="author" content="Daichi Sato">
 
   
-  <meta name="description" content="テスト p "Hello Octopress!" ">
+  <meta name="description" content="[1,2,3].toString() //=&gt; '1,2,3'
+Array.prototype.toString = function(){console.log('huga')}
+[1,2,3].toString() //=&gt; huga ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,13 +20,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="https://github.com/prinum/blog/">
+  <link rel="canonical" href="http://prinum.github.com/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
   <script src="/javascripts/ender.js"></script>
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <link href="/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
+  <link href="/atom.xml" rel="alternate" title="prinum" type="application/atom+xml">
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
@@ -35,9 +37,9 @@
 
 <body   >
   <header role="banner"><hgroup>
-  <h1><a href="/">My Octopress Blog</a></h1>
+  <h1><a href="/">prinum</a></h1>
   
-    <h2>A blogging framework for hackers.</h2>
+    <h2>プログラム関連の関連のメモ</h2>
   
 </hgroup>
 
@@ -49,7 +51,7 @@
   
 <form action="http://google.com/search" method="get">
   <fieldset role="search">
-    <input type="hidden" name="q" value="site:github.com/prinum/blog" />
+    <input type="hidden" name="q" value="site:prinum.github.com" />
     <input class="search" type="text" name="q" results="0" placeholder="Search"/>
   </fieldset>
 </form>
@@ -64,6 +66,45 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/03/08/javascript-prototype/">Javascript Array.prototype.toString を上書きしてみた</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-03-08T12:13:00+09:00" pubdate data-updated="true">Mar 8<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><pre><code>[1,2,3].toString() //=&gt; '1,2,3'
+Array.prototype.toString = function(){console.log('huga')}
+[1,2,3].toString() //=&gt; huga
+</code></pre>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -115,6 +156,10 @@
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/03/08/javascript-prototype/">javascript Array.prototype.toString を上書きしてみた</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2013/03/08/test-octopress/">octopressのテストです</a>

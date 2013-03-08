@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="https://github.com/prinum/blog/atom.xml" rel="self"/>
-  <link href="https://github.com/prinum/blog/"/>
-  <updated>2013-03-08T10:50:16+09:00</updated>
-  <id>https://github.com/prinum/blog/</id>
+  <title><![CDATA[prinum]]></title>
+  <link href="http://prinum.github.com/atom.xml" rel="self"/>
+  <link href="http://prinum.github.com/"/>
+  <updated>2013-03-08T12:18:18+09:00</updated>
+  <id>http://prinum.github.com/</id>
   <author>
     <name><![CDATA[Daichi Sato]]></name>
     
@@ -14,10 +14,22 @@
 
   
   <entry>
+    <title type="html"><![CDATA[javascript Array.prototype.toString を上書きしてみた]]></title>
+    <link href="http://prinum.github.com/blog/2013/03/08/javascript-prototype/"/>
+    <updated>2013-03-08T12:13:00+09:00</updated>
+    <id>http://prinum.github.com/blog/2013/03/08/javascript-prototype</id>
+    <content type="html"><![CDATA[<pre><code>[1,2,3].toString() //=&gt; '1,2,3'
+Array.prototype.toString = function(){console.log('huga')}
+[1,2,3].toString() //=&gt; huga
+</code></pre>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[octopressのテストです]]></title>
-    <link href="https://github.com/prinum/blog/blog/2013/03/08/test-octopress/"/>
+    <link href="http://prinum.github.com/blog/2013/03/08/test-octopress/"/>
     <updated>2013-03-08T10:43:00+09:00</updated>
-    <id>https://github.com/prinum/blog/blog/2013/03/08/test-octopress</id>
+    <id>http://prinum.github.com/blog/2013/03/08/test-octopress</id>
     <content type="html"><![CDATA[<h1>テスト</h1>
 
 <pre><code>p "Hello Octopress!"
