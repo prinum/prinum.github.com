@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[My Octopress Blog]]></title>
+  <link href="https://github.com/prinum/blog/atom.xml" rel="self"/>
+  <link href="https://github.com/prinum/blog/"/>
+  <updated>2013-03-08T10:50:16+09:00</updated>
+  <id>https://github.com/prinum/blog/</id>
+  <author>
+    <name><![CDATA[Daichi Sato]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[octopressのテストです]]></title>
+    <link href="https://github.com/prinum/blog/blog/2013/03/08/test-octopress/"/>
+    <updated>2013-03-08T10:43:00+09:00</updated>
+    <id>https://github.com/prinum/blog/blog/2013/03/08/test-octopress</id>
+    <content type="html"><![CDATA[<h1>テスト</h1>
+
+<pre><code>p "Hello Octopress!"
+</code></pre>
+]]></content>
+  </entry>
+  
+</feed>
