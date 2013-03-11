@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: javascript | prinum]]></title>
+  <link href="http://prinum.github.com/blog/categories/javascript/atom.xml" rel="self"/>
+  <link href="http://prinum.github.com/"/>
+  <updated>2013-03-11T12:43:10+09:00</updated>
+  <id>http://prinum.github.com/</id>
+  <author>
+    <name><![CDATA[Daichi Sato]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[javascript Array.prototype.toString を上書きしてみた]]></title>
+    <link href="http://prinum.github.com/blog/2013/03/08/javascript-prototype/"/>
+    <updated>2013-03-08T12:13:00+09:00</updated>
+    <id>http://prinum.github.com/blog/2013/03/08/javascript-prototype</id>
+    <content type="html"><![CDATA[<pre><code>[1,2,3].toString() //=&gt; '1,2,3'
+Array.prototype.toString = function(){console.log('huga')}
+[1,2,3].toString() //=&gt; huga
+</code></pre>
+]]></content>
+  </entry>
+  
+</feed>
